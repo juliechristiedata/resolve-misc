@@ -4,12 +4,12 @@ CREATE YOUR FIRST TABLE -- This will include all of the dates associated with th
 -- One place
 CREATE TABLE sandbox AS
 	SELECT * FROM RAWdata_12142020 
-	WHERE fips_code="42101" AND collection_week="2020-12-04";			-- [1] This is one way to call a place. Reference the end of this document to see the other ways you can specify a place.
+	WHERE fips_code="42101" AND collection_week="2020-12-04";	-- [1] This is one way to call a place. Reference the end of this document to see the other ways you can specify a place.
 
 -- Multiple places
 CREATE TABLE GreatPHL_Data_12142020 AS
 	SELECT * FROM RAWdata_12142020
-	WHERE fips_code="42101" OR fips_code="42091"; 								-- [2] To have multiple places, use the OR function to add each additional place. There are some restrictions that are explained in the reference.
+	WHERE fips_code="42101" OR fips_code="42091"; 			-- [2] To have multiple places, use the OR function to add each additional place. There are some restrictions that are explained in the reference.
 	
 	
 /* ===================================================
@@ -23,7 +23,9 @@ CREATE TABLE SANDBOX_Data_12142020 AS
 -- Multiple places
 CREATE TABLE SANDBOX_Data_12142020 AS
 	SELECT * FROM RAWdata_12142020 
-	WHERE (fips_code="42101" OR fips_code="42091" OR fips_code="42045" OR fips_code="42017" OR fips_code="42029" OR fips_code="34007" OR fips_code="10001" OR fips_code="10003" OR fips_code="10005") 								-- Keep your list of all the different places you want to capture inside the parentheses.
+	WHERE (fips_code="42101" OR fips_code="42091" OR fips_code="42045" 
+	       OR fips_code="42017" OR fips_code="42029" OR fips_code="34007" 
+	       OR fips_code="10001" OR fips_code="10003" OR fips_code="10005") 		-- Keep your list of all the different places you want to capture inside the parentheses.
 		AND collection_week="2020-12-04";
 	
 	
