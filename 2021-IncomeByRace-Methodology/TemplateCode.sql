@@ -37,6 +37,6 @@
 		LEFT JOIN smPUMAs_2010 ON ST_2019StateName.PUMA = smPUMAs_2010.puma12 AND ST_2019StateName.ST = smPUMAs_2010.state;		
 		
 -- [4] Filter out empty matches
-	CREATE TABLE CT_2019Arizona AS
+	CREATE TABLE CT_2019StateName AS
 		SELECT * From MTCHST_2010 
 		WHERE placenm like "%cityname%";
