@@ -240,9 +240,7 @@
 
 <p>If you&#39;re combining multiple PUMAs into a city like I did, you&#39;ll need to treat the percentages and estimated numbers differently. For percentage, I determined median to be the most stable process to unify them. For figures, totaling them was most appropriate.</p>
 
-<p>Once you&#39;ve completed the analysis you want, the final step, would be to visualize the data. Below you can see an example visualization from my analysis.</p>
-
-<iframe src='https://flo.uri.sh/visualisation/6196019/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe>
+<p>Once you&#39;ve completed the analysis you want, the final step, would be to visualize the data. </p>
 
 <div class="footnotes">
 <hr>
