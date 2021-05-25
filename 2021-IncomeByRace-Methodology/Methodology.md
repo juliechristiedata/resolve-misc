@@ -251,7 +251,7 @@
 </li>
 
 <li id="fn2">
-<p>We decided on $200,000 because our very first question wasn&#39;t of income, but wealth. After researching and understanding how subjective a term &quot;wealth&quot; is, we instead shifted to $200,000 income indicator for several reasons. First, income is a much more easily understood term for readers to think about, and there&#39;s less table-setting required to make sure people are thinking of the same thing when we talk about &quot;income.&quot; Second, we decided that $200,000 waas an appropriate amount because it is a relatively high income in cities, where cost of living can make high salaries just enough to get by.&nbsp;<a href="#fnref2" rev="footnote">&#8617;</a></p>
+<p>Our very first question wasn&#39;t of income, but wealth. After researching and understanding how subjective a term &quot;wealth&quot; is, we instead shifted to a $200,000 income indicator because the federal government uses that income as its threshhold for a high-earning individual.&nbsp;<a href="#fnref2" rev="footnote">&#8617;</a></p>
 </li>
 
 <li id="fn3">
