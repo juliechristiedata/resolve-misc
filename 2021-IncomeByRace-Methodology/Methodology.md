@@ -29,7 +29,7 @@
 <li><a href="https://mcdc.missouri.edu/applications/geocorr.html">Missouri Census Data Center Geocorr App 2014 and 2000 5%</a> — A list of Public Use Microdata Areas (PUMAs) that would match up with the PUMAs listed in the PUMS files that included names of the areas. PUMAs are the most specific geographies available in a PUMS file. These were not Super-PUMAs.</li>
 <li><a href="https://www2.census.gov/geo/docs/reference/puma/2010_PUMA_Names.txt">2010 PUMA Name reference file 5%</a> — A cleaned, simplified list of PUMA codes and their names.</li>
 <li><a href="https://data.census.gov/cedsci/table?q=dp05&amp;tid=ACSDP5Y2019.DP05">ACS 5-year estimate 2019 DP05</a> — ACS information for the 2019 PUMA geographies I was specifically looking into.</li>
-<li><a href="https://data.census.gov/cedsci/table?q=dp05&amp;tid=ACSDP1Y2010.DP05">ACS 1-year estimate 2010 DP05</a> — ACS information for the 2009 PUMA geographics I was specifically looking into.<sup id="fnref1"><a href="#fn1" rel="footnote">1</a></sup></li>
+<li><a href="https://data.census.gov/cedsci/table?q=dp05&amp;tid=ACSDP5Y2010.DP05">ACS 5-year estimate 2010 DP05</a> — ACS information for the 2009 PUMA geographics I was specifically looking into.<sup id="fnref1"><a href="#fn1" rel="footnote">1</a></sup></li>
 </ul>
 
 <h3 id="toc_5">Tools</h3>
