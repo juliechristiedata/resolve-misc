@@ -5,7 +5,7 @@ date: "7/6/2021"
 output: html_document
 ---
 
-\# Methodology for analyzing income by racial demographics
+# Methodology for analyzing income by racial demographics
 
 Created by Julie Christie, Data & Impact Editor at [Resolve Philly](https://www.resolvephilly.org).
 
