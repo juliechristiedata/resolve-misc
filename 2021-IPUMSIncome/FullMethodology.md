@@ -17,6 +17,8 @@ This project came about because we were unable to easily find hyper-local figure
 
 Sadly, the U.S. Census data tools could give us either race or income, but wouldn't allow us to combine the two for an estimate of how many people earn a specific amount within a racial group. The following is a detailed analysis of the process by which we created this analysis and the decisions we made along the way.
 
+**An important note to keep in mind is that this analysis focuses on City boundaries and not metro areas.**
+
 ### Glossary
 
 -   **ACS** --- American Community Survey; An annual survey the U.S. Census bureau conducts to collect an annual snapshot of demographic, housing and other information on United States residents. The presentation of this area is always aggregated by a geographic location.
@@ -301,7 +303,7 @@ This analysis is going to create a crosstab for several different combinations. 
     PUMA_Year <- PUMA_References %>%
       filter(Year == 2019)
 
-    Data_CityForWork <- merge(Data_Specific, PUMA_Year)
+    Data_CityForWork <- merge(Data_Above200k, PUMA_Year)
     ```
 
 4.  Now let's make the second group of crosstabs we want, also starting with `SUM` so they're easy to spot.
